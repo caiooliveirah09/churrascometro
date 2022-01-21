@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascômetro</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="shortcut icon" href="img/icon.png">
+    
+    <script src="script.js"></script>
+<!--fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+<!--referências-->
+</head>
+<body>
+ <div id="pagina"><div class="container">
+        <h1 id="uma">CHURRASCÔMETRO</h1>
+        <div class="containerAdulto">
+            <input id="adultos" name="adultos" type="number" placeholder="ADULTOS">
+            <img id="imagem" src="/img/casal.png">
+        </div>
+        <div class="containerCrianca">
+            <input id="criancas" name="criancas" type="number" placeholder="CRIANÇAS">
+            <img id="imagem2" src="/img/criancas.png">
+        </div>
+        <div class="containerDuracao">
+            <input id="duracao" name="duracao" type="number" placeholder="DURAÇÃO EM HORAS">
+            <img id="imagem3" src="img/relogio.png">
+        </div>
+        <div class="containerButton">
+            <button onclick="calcular()">CALCULAR</button>
+        </div>
+        <div id="resultado">
+    
+        </div>
+    </div>
+</div> 
+</body>
+</html>
