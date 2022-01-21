@@ -21,7 +21,6 @@
     position: relative;
     top: calc(47% - 250px);
     bottom: calc(50% - 250px);
-    border-radius: 50px;
 }
 
 h1{
