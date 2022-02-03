@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-size: 14px;
 }
 
 #pagina{
@@ -14,22 +15,28 @@
 
 .container{
     font-family: 'Mochiy Pop P One', sans-serif;
-    max-width: 500px;
+    height: 400px;
+    width: 300px;
     margin: auto;
     padding: 50px;
-    background-color: rgba(255,255,255,0.8);
-    position: relative;
-    top: calc(47% - 250px);
-    bottom: calc(50% - 250px);
+    background-color: rgba(255,255,255,1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    box-shadow: 0 0 1em black;
 }
 
 h1{
-    margin-top: 0;
+    margin-top: 0px;
     background-image: none;
     justify-content: center;
     display: flex;
     color: red;
     margin-bottom: 50px;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px black;
 }
 
 input{
@@ -47,7 +54,7 @@ img{
     background-image: none;
     position: relative;
     bottom: 42px;
-    left: 93%;
+    left: 88%;
 }
 
 button{
@@ -60,8 +67,8 @@ button{
 }
 
 #resultado{
-    margin: 15px;
-
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 p{
